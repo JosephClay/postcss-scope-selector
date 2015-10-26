@@ -1,6 +1,6 @@
 {
   "name": "postcss-scope-selector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PostCSS plugin to prefix selector with a scope if matched selector exists (.no-touchevents :hover)",
   "main": "./src/",
   "scripts": {
