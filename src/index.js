@@ -24,7 +24,7 @@ var scopeSelector = function(defaultPrefix, defaultSelector) {
         var commaCheck = checker(',');
 
         return function(css) {
-            css.eachRule(function(rule) {
+            css.walkRules(function(rule) {
                 var ruleSelector = rule.selector;
                 if (!ruleSelector || !selectorCheck(ruleSelector)) { return; }
 
