@@ -1,0 +1,31 @@
+{
+  "name": "postcss-scope-selector",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to prefix selector with a scope if matched selector exists (.no-touchevents :hover)",
+  "main": "./src/",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephClay/postcss-scope-selector.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "css",
+    "modernizr"
+  ],
+  "author": "Joseph Clay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephClay/postcss-scope-selector/issues"
+  },
+  "homepage": "https://github.com/JosephClay/postcss-scope-selector#readme",
+  "devDependencies": {
+    "tape": "^4.0.2"
+  },
+  "dependencies": {
+    "postcss": "^4.1.13"
+  }
+}
