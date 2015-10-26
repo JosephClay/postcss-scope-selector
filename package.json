@@ -26,6 +26,6 @@
     "tape": "^4.0.2"
   },
   "dependencies": {
-    "postcss": "^4.1.13"
+    "postcss": "^5.0.10"
   }
 }
